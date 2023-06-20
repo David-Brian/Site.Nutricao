@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./nutricaooo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-card {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 60%;
+    background: #d6f5f5;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.image-content {
+    width: 120px;
+    margin-top: 20px;
+    height: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: fantasy;
+    color: purple;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: fantasy;
+    color: purple;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    padding: 8px 12px;
+    margin-top: 30px;
+    border: none;
+    background-color: purple;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: purple;
+}
+
+li{
+    list-style: none;
+    color: purple;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: fantasy;
+}
+
+li:hover{
+    color: palevioletred;
+}
+
+footer {
+    height: 80px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-list {
+    list-style: none;
+    color: purple;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: fantasy;
+}
+
